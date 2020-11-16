@@ -9,6 +9,11 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
 }
 
+// !!!!!!! ATTENTION FOR MICROSERVICES DEVELOPER
+// CHECK ON BACKUP FOLDER
+// 1. main.dart.mono.backup1 -> is monolithic design
+// 2. main.dart.microservices.backup2 -> is microservices design
+
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
